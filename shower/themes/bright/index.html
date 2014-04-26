@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Open Data | FLISOL 2014</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=680, user-scalable=no">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<link rel="stylesheet" href="styles/screen.css">
+</head>
+<body class="list">
+	<!--
+		Debug class on <body> enables
+		cyan grid on slides
+		-->
+	<header class="caption">
+		<h1>Open Data</h1>
+		<p><a href="http://www.facebook.com/sergio.bezerradasilva" target="_blank">Sérgio Silva</a>, FLISOL 2014.</p>
+	</header>
+	<section class="slide cover" id="Cover">
+		<div>
+			<img src="pictures/capa-open_data.jpg" alt="Open Data">
+			<!--
+				To apply styles to the certain slides
+				set slide ID to get needed elements
+				-->
+			<style>
+				#Cover h2 {
+					margin:30px 0 0;
+					color:#fff;
+					text-shadow: 2px 2px 2px #000;
+					text-align:center;
+					font-size:70px;
+					}
+				#Cover p {
+					margin:10px 0 0;
+					text-align:center;
+					color:#fff;
+					font-style:italic;
+					font-size:20px;
+					}
+				#Cover p a {
+					color:#fff;
+				}
+				
+				#Cover .subtitle{
+					color:#fff;
+					text-shadow: 2px 2px 2px #000;
+					font-size:50px;
+					font-weight:bold;
+					line-height:120%;
+				}
+				
+			</style>
+		</div>
+
+	</section>
+
+	<section class="slide cover">
+		<div>
+			<img src="pictures/about_me-open_data.jpg" alt="Sobre Mim">
+		</div>
+	</section>
+	
+	<section class="slide"><div>
+		<h2>Vamos falar sobre:</h2>
+		<ul>
+			<li>O que são dados abertos</li>
+			<li>Para que servem?</li>
+			<li>Paises que já utilizam</li>
+			<li>Dados abertos no Brasil</li>
+			<li>Conceitos e Tecnologias</li>
+			<li>Terminologias</li>
+			<li>Ontologias</li>
+		</ul>
+	</div></section>
+	
+	<section class="slide"><div>
+		<ul>
+			<li>O que é OWL, RDF, RDF Schema, XML, XML Schema</li>
+			<li>URI</li>
+			<li>Websemântica</li>
+			<li>Triple Store</li>
+			<li>Endpoint</li>
+			<li>Apache Jenna</li>
+			<li>Ferramentas</li>
+		</ul>
+	</div></section>
+	
+	<section class="slide shout right"><div>
+		<h2>O que são dados abertos</h2>
+	</div></section>
+	
+	<section class="slide"><div>
+		<h2> Lei nº 12.527/2011</h2>
+		<figure>
+			<blockquote>
+				<p>Regula o acesso a informações previsto no inciso XXXIII do art. 5º, no inciso II do § 3º do art. 37 e no § 2º do art. 216 da Constituição Federal; altera a Lei nº 8.112, de 11 de dezembro de 1990; revoga a Lei nº 11.111, de 5 de maio de 2005, e dispositivos da Lei nº 8.159, de 8 de janeiro de 1991; e dá outras providências.</p>
+			</blockquote>
+			<figcaption>http://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2011-11-18;12527</figcaption>
+		</figure>
+	</div></section>
+	
+	<section class="slide shout left"><div>
+		<h2>Para que servem?</h2>
+	</div></section>
+	
+	<section class="slide shout down"><div>
+		<h2>Paises que já utilizam</h2>
+	</div></section>
+	
+	<section class="slide"><div>
+		<h2>Paises que já utilizam</h2>
+		<ul>
+			<li>Estados Unidos</li>
+			<li>Toda a Europa</li>	
+			<li>Canadá</li>	
+		</ul>
+	</div></section>
+	
+	<section class="slide shout up"><div>
+		<h2>Dados abertos no Brasil</h2>
+	</div></section>
+	
+	<section class="slide"><div>
+		<h2>Referências no Brasil</h2>
+		<ul>
+			<li>Ministério do Planejamento</li>
+			<li>Governo Federal</li>	
+			<li>Senado</li>
+			<li><a href="http://dados.gov.br/">Dados Abertos</a></li>
+		</ul>
+	</div></section>
+	
+	<section class="slide cover">
+		<div>
+			<img src="pictures/dados_aberto_org.jpg" alt="Website">
+		</div>
+	</section>
+	
+	<section class="slide shout right"><div>
+		<h2>Conceitos e Tecnologias</h2>
+	</div></section>
+	
+	<section class="slide"><div>
+		<h2>Conceitos</h2>
+		<ul>
+			<li>Terminologias</li>
+			<li>Ontologias</li>	
+			<li>OWL</li>
+			<li>RDF</li>
+		</ul>
+	</div></section>
+	
+	<section class="slide"><div>
+		<h2>Tecnologias</h2>
+		<ul>
+			<li>Triple Store</li>
+			<li>SPARQL SQL</li>	
+			<li>RDF Schema</li>
+			<li>XML Schema</li>
+		</ul>
+	</div></section>
+	
+	<section class="slide shout left"><div>
+		<h2>Terminologias</h2>
+	</div></section>
+	
+	<section class="slide"><div>
+		<h2>Terminologias</h2>
+		<ul>
+			<li class="next">São escritas por um especialista (tesauros, terminologias)</li>
+			<li class="next">Modeladas por um técnico</li>
+			<li class="next">Geram um OWL</li>
+		</ul>
+	</div></section>
+	
+	<section class="slide"><div>
+		<h2>Exemplo de Terminologia</h2>
+		<p><a href="http://www.dnit.gov.br/rodovias/rodovias-federais/terminologias-rodoviarias">Exemplo de terminologia de transportes</a></p>
+	</div></section>
+	
+	<section class="slide shout down"><div>
+		<h2>Ontologias</h2>
+	</div></section>
+	
+	<section class="slide"><div>
+		<h2>Ontologias</h2>
+		<ul>
+			<li class="next">São construídas a partir de uma terminologia</li>
+			<li class="next">Feitas em XML</li>
+			<li class="next">Geram um OWL (arquivo .xml)</li>
+			<li class="next">Comunica-se com um RDF</li>
+		</ul>
+	</div></section>
+	
+	<section class="slide shout up"><div>
+		<h2>O que é OWL, RDF, RDF Schema, XML, XML Schema</h2>
+	</div></section>
+	
+	<section class="slide"><div>
+		<h2>Conceitos</h2>
+		<ul>
+			<li>São arquivos XML com propósito específico</li>
+			<pre style="font-size:20px;">
+				<code>&lt;?xml:namespace ns="http://www.w3.org/RDF/RDF/" prefix="RDF" ?&gt;</code>
+				<code>&lt;?xml:namespace ns="http://purl.oclc.org/DC/" prefix="DC" ?&gt;</code>
+				<code>    &lt;xml:namespace ns="http://person.org/BusinessCard/" prefix="CARD" ?&gt;</code>
+				<code>    &lt;RDF:RDF&gt;</code>
+				<code>    &lt;RDF:Description RDF:HREF = "http://uri-of-Document-1"&gt;</code>
+				<code><mark>&lt;DC:Creator RDF:HREF = "#Creator_001"/&gt;</mark></code>
+			</pre>
+		</ul>
+	</div></section>
+	
+	<section class="slide shout right"><div>
+		<h2>URI</h2>
+	</div></section>
+	
+	<section class="slide"><div>
+		<h2>URI</h2>
+		<ul>
+			<li class="next">URI (Uniform Resource Identifiers) são utilizados para nomear e identificar coisas;</li>
+			<li class="next">Identificação única através de recursos;</li>
+			<li class="next">Recurso: qualquer coisa que tenha um identificador;</li>
+			<li class="next">Podem ser:
+				<ul>
+					<li class="next">Relativas</li>
+					<li class="next">Absolutas</li>
+				</ul>
+			</li>
+		</ul>
+	</div></section>
+	
+	<section class="slide shout down"><div>
+		<h2>Triplestore</h2>
+	</div></section>
+	
+	<section class="slide"><div>
+		<h2>Triplestore</h2>
+		<figure>
+			<blockquote>
+				<p>É um banco de dados construído com o propósito de armazenamento e recuperação de chaves triplos, um <i>triple</i> sendo uma entidade de dados composto de sujeito-predicado-objeto.</p>
+			</blockquote>
+			<figcaption>http://en.wikipedia.org/wiki/Triplestore</figcaption>
+		</figure>
+	</div></section>
+	
+	<section class="slide shout up"><div>
+		<h2>Endpoint</h2>
+	</div></section>
+	
+	<section class="slide"><div>
+		<h2>Endpoint</h2>
+		<p>Máquina onde encontra-se o banco de dados a ser consultado.</p>
+	</div></section>
+	
+	<section class="slide shout up"><div>
+		<h2>Apache Jenna</h2>
+	</div></section>
+	
+	<section class="slide cover">
+		<div>
+			<img src="pictures/apache_jenna.jpg" alt="Apache Jenna">
+		</div>
+	</section>
+	
+	<section class="slide"><div>
+		<h2>Apache Jenna</h2>
+		<p>Projeto da HP que dedica-se a produção de tecnologias relacionadas a Websemântica destinados a dados abertos.</p>
+	</div></section>
+	
+	<section class="slide shout left"><div>
+		<h2>Websemântica</h2>
+	</div></section>
+	
+	<section class="slide"><div>
+		<h2>Websemântica</h2>
+		<p>É a união de todas estas tecnologias</p>
+	</div></section>
+	
+	<section class="slide shout up"><div>
+		<h2>Ferramentas</h2>
+	</div></section>
+	
+	<section class="slide"><div>
+		<h2>Ferramentas</h2>
+		<ul>
+			<li class="next">Protegé</li>
+			<li class="next">SPARQL SQL</li>
+		</ul>
+	</div></section>
+	
+	<section class="slide cover">
+		<div>
+			<img src="pictures/sparql.jpg" alt="SPARQL SQL">
+		</div>
+	</section>
+	
+	<section class="slide"><div>
+		<h2>Eventos</h2>
+		<ul>
+			<li>Encontro de Dados Abertos</li>
+			<li>Open Knowledge Brasil</li>
+			<li>Conferência Livre dos Dados Abertos</li>
+		</ul>
+	</div></section>
+	
+	<section class="slide cover">
+		<div>
+			<img src="pictures/2enda.png" alt="#2ENDA">
+		</div>
+	</section>
+	
+	
+	
+	<section class="slide"><div>
+		<h2>Bibliografias</h2>
+		<ol>		
+			<li>DADOS ABERTOS</li>
+			<a href="http://dados.gov.br" target="_blank">http://dados.gov.br</a>
+			<li>W3C</li>
+			<a href="http://w3c.com/" target="_blank">http://w3c.com/</a>
+			<li>Learning SPARQL</li>
+			<a href="http://www.learningsparql.com/‎" target="_blank">http://www.learningsparql.com/‎</a>
+			
+		</ol>
+	</div></section>
+	
+	<section class="slide"><div>
+		<h2>Créditos</h2>
+		<ol>
+			<li>Sérgio Bezerra da Silva</li>
+			<a href="http://www.facebook.com/sergio.bezerradasilva" target="_blank">Perfil do Facebook</a> |
+			<a href="http://mrbreakbeat.github.io/about" target="_blank">Perfil Github</a> |
+			<a href="http://www.j2mtecnologia.com.br" target="_blank">J2M Tecnologia</a>
+		</ol>
+	</div></section>
+	<!--
+		To hide progress bar from entire presentation
+		just remove “progress” element.
+		-->
+	<div class="progress"><div></div></div>
+	<script src="../../shower.js"></script>
+	<!-- Copyright © 2013 Yours Truly, Famous Inc. -->
+</body>
+</html>
